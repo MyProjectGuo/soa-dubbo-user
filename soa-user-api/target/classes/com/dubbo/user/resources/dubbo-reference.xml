@@ -5,8 +5,8 @@
 
     <dubbo:application name="soa-user-dubbo-provider" owner="soa-user-dubbo-provider"/>
     <dubbo:registry address="${dubbo.registry.address}" check="false" subscribe="false"/>
-    <!-- <dubbo:service interface="com.dubbo.user.service.UserService" ref="getUserById" timeout="5000" retries="0"/> -->
-    <!-- <bean id="getUserById" class="com.dubbo.user.service.impl.UserServiceImpl" ></bean> -->
-	<dubbo:reference id="userService" interface="com.dubbo.user.service.UserService"  timeout="30000" retries="0"/>
+     <dubbo:service interface="com.dubbo.user.service.UserService" ref="getUserById" timeout="5000" retries="0"/> 
+     <bean id="getUserById" class="com.dubbo.user.service.impl.UserServiceImpl" ></bean> 
+	<!-- <dubbo:reference id="userService" interface="com.dubbo.user.service.UserService"  timeout="30000" retries="0"/> -->
 	 
 </beans>
