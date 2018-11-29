@@ -1,1 +1,6 @@
 /soa-user-service/target
+/soa-user-api/target
+/soa-user-api/.classpath
+/soa-user-service/*.classpath
+/soa-user-service/.settings
+/soa-user-api/.settings
